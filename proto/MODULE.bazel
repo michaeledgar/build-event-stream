@@ -1,0 +1,8 @@
+"""Build Event Stream protobuf definition and dependencies."""
+
+module(
+    name = "build_event_stream",
+    version = "0",
+)
+
+bazel_dep(name = "protobuf", version = "21.7", repo_name = "com_google_protobuf")
